@@ -1,12 +1,33 @@
+.start-background {
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.start-button {
+    width: 20vw;
+    height: 5vh;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
 .background {
     background-image: url("background.png");
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 100vh;    
+    height: 100vh;
 }
 
 .star {
     width: 20vw;
     position: absolute;
+    vertical-align: middle;
 }
