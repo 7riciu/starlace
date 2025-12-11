@@ -28,13 +28,28 @@ window.onload = randomPosition;
 
 let counter = 0;
 
+images.forEach(img => {
+    img.addEventListener("click", () => {
+        if (img.database.clicked === "true") return;
+        img.database.clicked = "true";
+    });
+});
+
 function star_count_two() {
-    counter++;
-    console.log(counter)
-    if (counter === 4) {
-        window.location.href = "level_two_end.html";
-        counter = 0;
-    }
+    let stars = document.querySelectorAll(".star")
+
+    stars.forEach(star => {
+        star.addEventListener("click", () => {
+            if (star.dataset.clicked === "true") return;
+            star.dataset.clicked = "true";
+            counter++;
+            console.log(counter)
+            if (counter === 4) {
+            window.location.href = "level_two_end.html";
+            counter = 0;
+        }
+        });
+    });
 }
 
 function star_count_three() {
