@@ -1,10 +1,15 @@
-.start-background {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-image: url("background.png");
     background-size: cover;
+    overflow-x: hidden;
     background-position: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
@@ -13,7 +18,10 @@
     width: 20vw;
     height: 5vh;
     display: inline-block;
-    background-color: white;
+    cursor: pointer;
+    background-color: #2a3e83;
+    color: white;
+    border: 2px solid white;
     text-align: center;
     align-content: center;
 }
