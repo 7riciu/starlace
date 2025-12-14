@@ -1,5 +1,18 @@
-function Found() {
-    window.alert("Found the star!")
+document.addEventListener("DOMContentLoaded", star_count_two);
+document.addEventListener("DOMContentLoaded", star_count_three);
+document.addEventListener("DOMContentLoaded", star_count_four);
+document.addEventListener("DOMContentLoaded", star_count_five);
+document.addEventListener("DOMContentLoaded", star_count_six);
+document.addEventListener("DOMContentLoaded", star_count_seven);
+document.addEventListener("DOMContentLoaded", star_count_eight);
+document.addEventListener("DOMContentLoaded", star_count_nine);
+document.addEventListener("DOMContentLoaded", star_count_ten);
+document.addEventListener("DOMContentLoaded", star_count_eleven);
+document.addEventListener("DOMContentLoaded", star_count_twelve);
+document.addEventListener("DOMContentLoaded", star_count_thirteen);
+
+function changeImage(img) {
+    img.src = "background.png"
 }
 
 function randomPosition() {
