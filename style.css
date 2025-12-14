@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.start-background {
     background-image: url("background.png");
     background-size: cover;
     overflow-x: hidden;
@@ -26,7 +26,70 @@ body {
     align-content: center;
 }
 
-.background {
+
+.level-background {
+    background-image: url("background.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.level_circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.level {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    transform-origin: 0 0;
+}
+
+.level:nth-child(1) { transform: rotate(0deg) translate(120px); }
+.level:nth-child(2) { transform: rotate(30deg) translate(120px); }
+.level:nth-child(3) { transform: rotate(60deg) translate(120px); }
+.level:nth-child(4) { transform: rotate(90deg) translate(120px); }
+.level:nth-child(5) { transform: rotate(120deg) translate(120px); }
+.level:nth-child(6) { transform: rotate(150deg) translate(120px); }
+.level:nth-child(7) { transform: rotate(180deg) translate(120px); }
+.level:nth-child(8) { transform: rotate(210deg) translate(120px); }
+.level:nth-child(9) { transform: rotate(240deg) translate(120px); }
+.level:nth-child(10) { transform: rotate(270deg) translate(120px); }
+.level:nth-child(11) { transform: rotate(300deg) translate(120px); }
+.level:nth-child(12) { transform: rotate(330deg) translate(120px); }
+
+.level span {
+    display: block;
+}
+
+.level:nth-child(1) span  { transform: rotate(0deg) }
+.level:nth-child(2) span  { transform: rotate(-30deg) }
+.level:nth-child(3) span  { transform: rotate(-60deg) }
+.level:nth-child(4) span  { transform: rotate(-90deg) }
+.level:nth-child(5) span  { transform: rotate(-120deg) }
+.level:nth-child(6) span  { transform: rotate(-150deg) }
+.level:nth-child(7) span  { transform: rotate(-180deg) }
+.level:nth-child(8) span  { transform: rotate(-210deg) }
+.level:nth-child(9) span  { transform: rotate(-240deg) }
+.level:nth-child(10) span  { transform: rotate(-270deg) }
+.level:nth-child(11) span  { transform: rotate(-300deg) }
+.level:nth-child(12) span  { transform: rotate(-330deg) }
+
+
+.star-background {
     background-image: url("background.png");
     background-size: cover;
     background-position: center;
