@@ -110,6 +110,12 @@ a {
     cursor: pointer;
 }
 
+.level_menu_button {
+    width: 6vw;
+    position: absolute;
+    left: 3vh;
+    top: 3vh;
+}
 
 .end-background {
     width: 100vw;
