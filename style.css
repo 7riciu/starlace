@@ -64,35 +64,35 @@ a {
     transform-origin: 0 0;
 }
 
-.level:nth-child(1) { transform: rotate(0deg) translate(200px); }
-.level:nth-child(2) { transform: rotate(30deg) translate(200px); }
-.level:nth-child(3) { transform: rotate(60deg) translate(200px); }
-.level:nth-child(4) { transform: rotate(90deg) translate(200px); }
-.level:nth-child(5) { transform: rotate(120deg) translate(200px); }
-.level:nth-child(6) { transform: rotate(150deg) translate(200px); }
-.level:nth-child(7) { transform: rotate(180deg) translate(200px); }
-.level:nth-child(8) { transform: rotate(210deg) translate(200px); }
-.level:nth-child(9) { transform: rotate(240deg) translate(200px); }
-.level:nth-child(10) { transform: rotate(270deg) translate(200px); }
-.level:nth-child(11) { transform: rotate(300deg) translate(200px); }
-.level:nth-child(12) { transform: rotate(330deg) translate(200px); }
+.level:nth-child(1) { transform: rotate(180deg) translate(200px); }
+.level:nth-child(2) { transform: rotate(210deg) translate(200px); }
+.level:nth-child(3) { transform: rotate(240deg) translate(200px); }
+.level:nth-child(4) { transform: rotate(270deg) translate(200px); }
+.level:nth-child(5) { transform: rotate(300deg) translate(200px); }
+.level:nth-child(6) { transform: rotate(330deg) translate(200px); }
+.level:nth-child(7) { transform: rotate(0deg) translate(200px); }
+.level:nth-child(8) { transform: rotate(30deg) translate(200px); }
+.level:nth-child(9) { transform: rotate(60deg) translate(200px); }
+.level:nth-child(10) { transform: rotate(90deg) translate(200px); }
+.level:nth-child(11) { transform: rotate(120deg) translate(200px); }
+.level:nth-child(12) { transform: rotate(150deg) translate(200px); }
 
 .level span {
     display: block;
 }
 
-.level:nth-child(1) span  { transform: rotate(0deg) }
-.level:nth-child(2) span  { transform: rotate(-30deg) }
-.level:nth-child(3) span  { transform: rotate(-60deg) }
-.level:nth-child(4) span  { transform: rotate(-90deg) }
-.level:nth-child(5) span  { transform: rotate(-120deg) }
-.level:nth-child(6) span  { transform: rotate(-150deg) }
-.level:nth-child(7) span  { transform: rotate(-180deg) }
-.level:nth-child(8) span  { transform: rotate(-210deg) }
-.level:nth-child(9) span  { transform: rotate(-240deg) }
-.level:nth-child(10) span  { transform: rotate(-270deg) }
-.level:nth-child(11) span  { transform: rotate(-300deg) }
-.level:nth-child(12) span  { transform: rotate(-330deg) }
+.level:nth-child(1) span  { transform: rotate(-180deg) }
+.level:nth-child(2) span  { transform: rotate(-210deg) }
+.level:nth-child(3) span  { transform: rotate(-240deg) }
+.level:nth-child(4) span  { transform: rotate(-270deg) }
+.level:nth-child(5) span  { transform: rotate(-300deg) }
+.level:nth-child(6) span  { transform: rotate(-330deg) }
+.level:nth-child(7) span  { transform: rotate(0deg) }
+.level:nth-child(8) span  { transform: rotate(-30deg) }
+.level:nth-child(9) span  { transform: rotate(-60deg) }
+.level:nth-child(10) span  { transform: rotate(-90deg) }
+.level:nth-child(11) span  { transform: rotate(-120deg) }
+.level:nth-child(12) span  { transform: rotate(-150deg) }
 
 
 .star-background {

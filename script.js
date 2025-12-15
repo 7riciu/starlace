@@ -37,12 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function changeImage(img) {
+function change_image(img) {
     img.src = "background.png"
-}
-
-function completed(){
-
 }
 
 function randomPosition() {
@@ -78,6 +74,7 @@ function star_count_two() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 4) {
@@ -95,6 +92,7 @@ function star_count_three() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 7) {
@@ -112,6 +110,7 @@ function star_count_four() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -129,6 +128,7 @@ function star_count_five() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 5) {
@@ -146,6 +146,7 @@ function star_count_six() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -163,6 +164,7 @@ function star_count_seven() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 7) {
@@ -180,6 +182,7 @@ function star_count_eight() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 6) {
@@ -197,6 +200,7 @@ function star_count_nine() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -214,6 +218,7 @@ function star_count_ten() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 8) {
@@ -231,6 +236,7 @@ function star_count_eleven() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 9) {
@@ -248,6 +254,7 @@ function star_count_twelve() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -265,6 +272,7 @@ function star_count_thirteen() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
+            change_image(star);
             counter++;
             console.log(counter)
             if (counter === 17) {
