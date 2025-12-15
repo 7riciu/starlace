@@ -159,7 +159,7 @@ function star_count_six() {
             change_image(star);
             counter++;
             console.log(counter)
-            if (counter === 10) {
+            if (counter === 14) {
                 window.location.href = "level_six_end.html";
                 counter = 0;
             }
