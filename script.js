@@ -37,6 +37,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    let stars = document.querySelectorAll(".star");
+
+    stars.forEach(star => {
+        const x = star.dataset.x;
+        const y = star.dataset.y;
+
+        star.style.left = `${x}%`;
+        star.style.top = `${y}%`;
+    });
+});
+
 function change_image(img) {
     img.src = "background.png"
 }
@@ -62,8 +74,6 @@ function randomPosition() {
         star.style.top = randomVertical + "px";
         });
 }
-
-window.onload = randomPosition;
 
 let counter = 0;
 
