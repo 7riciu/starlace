@@ -1,18 +1,48 @@
-document.addEventListener("DOMContentLoaded", star_count_two);
-document.addEventListener("DOMContentLoaded", star_count_three);
-document.addEventListener("DOMContentLoaded", star_count_four);
-document.addEventListener("DOMContentLoaded", star_count_five);
-document.addEventListener("DOMContentLoaded", star_count_six);
-document.addEventListener("DOMContentLoaded", star_count_seven);
-document.addEventListener("DOMContentLoaded", star_count_eight);
-document.addEventListener("DOMContentLoaded", star_count_nine);
-document.addEventListener("DOMContentLoaded", star_count_ten);
-document.addEventListener("DOMContentLoaded", star_count_eleven);
-document.addEventListener("DOMContentLoaded", star_count_twelve);
-document.addEventListener("DOMContentLoaded", star_count_thirteen);
+document.addEventListener("DOMContentLoaded", () => {
+    if (document.body.id === "level_two") {
+        star_count_two();
+    }
+    if (document.body.id === "level_three") {
+        star_count_three();
+    }
+    if (document.body.id === "level_four") {
+        star_count_four();
+    }
+    if (document.body.id === "level_five") {
+        star_count_five();
+    }
+    if (document.body.id === "level_six") {
+        star_count_six();
+    }
+    if (document.body.id === "level_seven") {
+        star_count_seven();
+    }
+    if (document.body.id === "level_eight") {
+        star_count_eight();
+    }
+    if (document.body.id === "level_nine") {
+        star_count_nine();
+    }
+    if (document.body.id === "level_ten") {
+        star_count_ten();
+    }
+    if (document.body.id === "level_eleven") {
+        star_count_eleven();
+    }
+    if (document.body.id === "level_twelve") {
+        star_count_twelve();
+    }
+    if (document.body.id === "level_thirteen") {
+        star_count_thirteen();
+    }
+});
 
 function changeImage(img) {
     img.src = "background.png"
+}
+
+function completed(){
+
 }
 
 function randomPosition() {
