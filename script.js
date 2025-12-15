@@ -87,7 +87,7 @@ function star_count_two() {
             change_image(star);
             counter++;
             console.log(counter)
-            if (counter === 4) {
+            if (counter === 13) {
                 window.location.href = "level_two_end.html";
                 counter = 0;
             }
