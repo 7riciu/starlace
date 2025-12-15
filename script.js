@@ -105,7 +105,7 @@ function star_count_three() {
             change_image(star);
             counter++;
             console.log(counter)
-            if (counter === 7) {
+            if (counter === 13) {
                 window.location.href = "level_three_end.html";
                 counter = 0;
             }
@@ -123,7 +123,7 @@ function star_count_four() {
             change_image(star);
             counter++;
             console.log(counter)
-            if (counter === 10) {
+            if (counter === 16) {
                 window.location.href = "level_four_end.html";
                 counter = 0;
             }
