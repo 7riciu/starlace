@@ -141,7 +141,7 @@ function star_count_five() {
             change_image(star);
             counter++;
             console.log(counter)
-            if (counter === 5) {
+            if (counter === 11) {
                 window.location.href = "level_five_end.html";
                 counter = 0;
             }
