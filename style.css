@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 a {
@@ -11,7 +12,7 @@ a {
 .start-background {
     width: 100vw;
     height: 100vh;
-    background-image: url("constellation_background.jpg");
+    background-image: url("background.png");
     background-size: cover;
     overflow-x: hidden;
     background-position: center;
@@ -22,7 +23,7 @@ a {
     width: 25vw;
     height: 8vh;
     color: white;
-    background-image: url("constellation_background.jpg");
+    background-image: url("background.png");
     border: 1px solid white;
     display: inline-block;
     cursor: pointer;
@@ -34,7 +35,7 @@ a {
 .level-background {
     width: 100vw;
     height: 100vh;
-    background-image: url("constellation_background.jpg");
+    background-image: url("background.png");
     background-size: cover;
     overflow-x: hidden;
     background-position: center;
@@ -54,7 +55,6 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #393F86;
     color: white;
     border: 1px solid white;
     border-radius: 50%;
@@ -98,7 +98,7 @@ a {
 .star-background {
     width: 100vw;
     height: 100vh;
-    background-image: url("constellation_background.jpg");
+    background-image: url("background.png");
     background-size: cover;
     background-position: center;
 }
@@ -125,7 +125,7 @@ a {
 .end-background {
     width: 100vw;
     height: 100vh;
-    background-image: url("constellation_background.jpg");
+    background-image: url("background.png");
     background-size: cover;
     background-position: center;
     color: white;
