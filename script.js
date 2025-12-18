@@ -222,7 +222,7 @@ function star_count_two() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 13) {
@@ -241,7 +241,7 @@ function star_count_three() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 13) {
@@ -260,7 +260,7 @@ function star_count_four() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 16) {
@@ -279,7 +279,7 @@ function star_count_five() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 11) {
@@ -298,7 +298,7 @@ function star_count_six() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 14) {
@@ -317,7 +317,7 @@ function star_count_seven() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 7) {
@@ -336,7 +336,7 @@ function star_count_eight() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 6) {
@@ -355,7 +355,7 @@ function star_count_nine() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -374,7 +374,7 @@ function star_count_ten() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 8) {
@@ -393,7 +393,7 @@ function star_count_eleven() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 9) {
@@ -412,7 +412,7 @@ function star_count_twelve() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 10) {
@@ -431,7 +431,7 @@ function star_count_thirteen() {
         star.addEventListener("click", () => {
             if (star.dataset.clicked === "true") return;
             star.dataset.clicked = "true";
-            change_image(star);
+            star.classList.toggle("active");
             counter++;
             console.log(counter)
             if (counter === 17) {

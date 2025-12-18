@@ -108,6 +108,11 @@ a {
     position: absolute;
     vertical-align: middle;
     cursor: pointer;
+    opacity: 30%;
+}
+
+.star.active {
+    opacity: 1;
 }
 
 .level_menu_button {
