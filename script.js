@@ -320,7 +320,7 @@ function star_count_seven() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 7) {
+            if (counter === 15) {
                 window.location.href = "level_seven_end.html";
                 localStorage.setItem("seven_comp", "true");
                 counter = 0;

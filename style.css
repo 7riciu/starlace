@@ -23,7 +23,6 @@ a {
     width: 25vw;
     height: 8vh;
     color: white;
-    background-image: url("background.png");
     border: 1px solid white;
     display: inline-block;
     cursor: pointer;
@@ -122,6 +121,7 @@ a {
     top: 3vh;
 }
 
+
 .end-background {
     width: 100vw;
     height: 100vh;
@@ -136,7 +136,6 @@ a {
 .end-next-button {
     width: 25vw;
     height: 8vh;
-    background-color: #393F86;
     align-content: center;
     border: 1px solid white;
 }
