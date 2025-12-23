@@ -377,7 +377,7 @@ function star_count_ten() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 8) {
+            if (counter === 13) {
                 window.location.href = "level_ten_end.html";
                 localStorage.setItem("ten_comp", "true");
                 counter = 0;
