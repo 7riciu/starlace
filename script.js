@@ -415,7 +415,7 @@ function star_count_twelve() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 10) {
+            if (counter === 16) {
                 window.location.href = "level_twelve_end.html";
                 localStorage.setItem("twelve_comp", "true");
                 counter = 0;
