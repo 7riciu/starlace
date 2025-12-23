@@ -358,7 +358,7 @@ function star_count_nine() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 10) {
+            if (counter === 9) {
                 window.location.href = "level_nine_end.html";
                 localStorage.setItem("nine_comp", "true");
                 counter = 0;
