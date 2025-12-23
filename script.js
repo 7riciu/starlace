@@ -396,7 +396,7 @@ function star_count_eleven() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 9) {
+            if (counter === 8) {
                 window.location.href = "level_eleven_end.html";
                 localStorage.setItem("eleven_comp", "true");
                 counter = 0;
