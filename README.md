@@ -1,6 +1,7 @@
 # starlace
 
 Starlace is a web game where you spot stars on the nighty sky and discover constellations 🌌
+
 There are 12 levels, one for each zodiac sign's constellation ✨ At the end of each level, you find out a little bit about each sign 🎑
 
 Installation instructions:
