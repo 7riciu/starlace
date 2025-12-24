@@ -114,84 +114,80 @@ document.addEventListener("DOMContentLoaded", () => {
     level_three.addEventListener("click", (level) => {
         if (!two_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_four.addEventListener("click", (level) => {
         if (!three_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_five.addEventListener("click", (level) => {
         if (!four_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_six.addEventListener("click", (level) => {
         if (!five_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_seven.addEventListener("click", (level) => {
         if (!six_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_eight.addEventListener("click", (level) => {
         if (!seven_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_nine.addEventListener("click", (level) => {
         if (!eight_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_ten.addEventListener("click", (level) => {
         if (!nine_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_eleven.addEventListener("click", (level) => {
         if (!ten_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_twelve.addEventListener("click", (level) => {
         if (!eleven_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 
     level_thirteen.addEventListener("click", (level) => {
         if (!twelve_comp) {
             level.preventDefault();
-            console.log("Level locked");
+            alert("Level locked!");
         }
     });
 });
-
-function change_image(img) {
-    img.src = "background.png"
-}
 
 function randomPosition() {
     const stars = document.querySelectorAll(".star");
@@ -434,8 +430,8 @@ function star_count_thirteen() {
             star.classList.toggle("active");
             counter++;
             console.log(counter)
-            if (counter === 17) {
-                window.location.href = "win.html";
+            if (counter === 23) {
+                window.location.href = "level_thirteen_end.html";
                 localStorage.setItem("thirteen_comp", "true");
                 counter = 0;
             }
