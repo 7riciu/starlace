@@ -143,21 +143,3 @@ a {
 .end-next-button span {
     color: white;
 }
-
-
-.collection {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(background.png);
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10vw;
-    align-items: center;
-    justify-items: center;
-}
-
-.collection-img {
-    height: 5vh;
-}
