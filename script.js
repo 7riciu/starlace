@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let twelve_comp = localStorage.getItem("twelve_comp") === "true";
     let thirteen_comp = localStorage.getItem("thirteen_comp") === "true";
 
+    let level_one = document.getElementById("level_one");
     let level_two = document.getElementById("level_two");
     let level_three = document.getElementById("level_three");
     let level_four = document.getElementById("level_four");
@@ -109,6 +110,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         star.style.left = `${x}%`;
         star.style.top = `${y}%`;
+    });
+
+    level_two.addEventListener("click", (level) => {
+        if (!two_comp) {
+            level.preventDefault();
+            alert("Level locked!");
+        }
     });
 
     level_three.addEventListener("click", (level) => {
@@ -210,6 +218,12 @@ function randomPosition() {
         star.style.top = randomVertical + "px";
         });
 }
+
+window.addEventListener("load", () => {
+    if (document.body.id === "level_one") {
+        randomPosition();
+    }
+});
 
 function star_count_two() {
     let stars = document.querySelectorAll(".star");
