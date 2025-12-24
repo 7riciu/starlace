@@ -14,4 +14,4 @@ git clone https://github.com/7riciu/starlace
 
 cd starlace
 
-3. Find and double click index.html to open the website in your browser1.
+3. Find and double click index.html to open the website in your browser.
